@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "db787fac-4933-44e2-a10e-ddc3ccf8ccf4",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29682283"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Murad/Desktop/apiVideos/video.MOV"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://video-recorder-twhn.onrender.com/api/upload",
+					"protocol": "https",
+					"host": [
+						"video-recorder-twhn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://video-recorder-twhn.onrender.com/api/videos",
+					"protocol": "https",
+					"host": [
+						"video-recorder-twhn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://video-recorder-twhn.onrender.com/api/videos/recent",
+					"protocol": "https",
+					"host": [
+						"video-recorder-twhn",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"videos",
+						"recent"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
